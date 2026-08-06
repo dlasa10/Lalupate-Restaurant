@@ -1753,3 +1753,16 @@ body.nav-active { overflow: hidden; }
 
 
 }
+
+@media (max-width: 768px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .hero {
+    width: 100%;
+    overflow: hidden;
+  }
+
+}
