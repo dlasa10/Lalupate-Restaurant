@@ -1753,3 +1753,19 @@ body.nav-active { overflow: hidden; }
   }
 
 }
+
+/* Mobile preload size */
+@media (max-width: 600px) {
+
+  .circle {
+    width: 80px;
+    height: 80px;
+    margin-block-end: 25px;
+  }
+
+  .preload .text {
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+  }
+
+}
