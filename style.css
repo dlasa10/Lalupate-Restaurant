@@ -1753,7 +1753,6 @@ body.nav-active { overflow: hidden; }
   }
 
 }
-
 /* Mobile preload size */
 @media (max-width: 600px) {
 
@@ -1769,7 +1768,6 @@ body.nav-active { overflow: hidden; }
   }
 
 }
-
 /* ===== Mobile Navbar Fix ===== */
 @media (max-width: 768px) {
 
