@@ -1769,3 +1769,68 @@ body.nav-active { overflow: hidden; }
   }
 
 }
+
+/* ===== Mobile Navbar Fix ===== */
+@media (max-width: 768px) {
+
+  .navbar {
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease;
+    width: 85%;
+    max-width: 320px;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1000;
+    visibility: hidden;
+  }
+
+  .navbar.active {
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  .overlay {
+    z-index: 999;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .navbar-list {
+    margin: 100px 0 40px;
+    text-align: center;
+  }
+
+  .navbar-item {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid var(--white-alpha-20);
+  }
+
+  .navbar-link {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .navbar-link .separator {
+    display: none;
+  }
+
+  .navbar-link .span {
+    transform: none !important;
+  }
+
+}
+@media (max-width: 574px) {
+
+  .header .btn {
+    display: block;
+    padding: 8px 18px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-left: auto;
+  }
+
+}
